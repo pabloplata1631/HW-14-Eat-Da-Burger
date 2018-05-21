@@ -15,3 +15,6 @@ app.engine('handlerbars',exphbs({
     defaultLayout:'main'
 }));
 app.set('view engine','handlerbars');
+
+var port = 300;
+app.listen(port);
