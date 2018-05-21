@@ -1,0 +1,27 @@
+{
+  "name": "hw-14-eat-da-burger",
+  "version": "1.0.0",
+  "description": "Burger Application ",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloplata1631/HW-14-Eat-Da-Burger.git"
+  },
+  "author": "Pablo Plata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloplata1631/HW-14-Eat-Da-Burger/issues"
+  },
+  "homepage": "https://github.com/pabloplata1631/HW-14-Eat-Da-Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  }
+}
